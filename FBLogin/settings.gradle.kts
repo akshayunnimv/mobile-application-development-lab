@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FBlogin"
+rootProject.name = "FBLogin"
 include(":app")
  

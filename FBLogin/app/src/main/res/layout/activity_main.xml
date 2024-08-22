@@ -8,25 +8,26 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bt1"
+        android:onClick="BTN"
+        android:id="@+id/B1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="160dp"
-        android:text="Button"
+        android:text="Click Me!!!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/T1" />
 
     <TextView
-        android:id="@+id/t1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/T1"
+        android:layout_width="205dp"
+        android:layout_height="54dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="160dp"
-        android:text="Click in the "
+        android:text="Click the button below to go to facebook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

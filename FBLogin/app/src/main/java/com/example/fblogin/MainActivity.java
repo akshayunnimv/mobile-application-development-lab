@@ -1,6 +1,9 @@
 package com.example.fblogin;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void BTN(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/login/")));
     }
 }
